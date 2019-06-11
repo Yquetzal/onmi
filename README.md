@@ -7,7 +7,7 @@ It is strongly impired by the article by McDaid et al.[1]. In fact, it is checke
 It allows to compute: 
 * The original version of the overlapping NMI as described by Lancichinetti et al. in [3], that I call $$LFK$$
 * The variation proposed in [2] to solve some normalization problems of the original version, that I call $$MGH$$
-* A variant of the method in [3] introduced in [1], equation 7. (called there $$NMI_{LFK}$$, that I call $$MGH_LFK$$
+* A variant of the method in [3] introduced in [1], equation 7. (called there $$NMI_{LFK}$$, that I call $$MGH_{LFK}$$
 
 [1]  McDaid, A. F., Greene, D., & Hurley, N. (2011). Normalized mutual information to evaluate overlapping community finding algorithms. arXiv preprint arXiv:1110.2515. Chicago
 
