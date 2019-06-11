@@ -12,6 +12,8 @@ It allows to compute:
 
 If you use this code and want to reference it, cite it as the cdlib [4] since I wrote this code for this library.
 
+---
+
 [1]  McDaid, A. F., Greene, D., & Hurley, N. (2011). Normalized mutual information to evaluate overlapping community finding algorithms. arXiv preprint arXiv:1110.2515. Chicago
 
 [2] https://github.com/aaronmcdaid/Overlapping-NMI
