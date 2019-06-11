@@ -1,10 +1,13 @@
+"""
+Author: Remy Cazabet (remy.cazabet AT gmail.com)
+
+"""
 import scipy as sp
 import math
 
-
+################## Helper functions ##############
 logBase = 2
 def __partial_entropy_a_proba(proba):
-
     if proba==0:
         return 0
     return -proba * math.log(proba,logBase)
@@ -17,7 +20,6 @@ def __cover_entropy(cover, allNodes): #cover is a list of set, no com ID
 
     return sum(allEntr)
 
-# https://github.com/RapidsAtHKUST/CommunityDetectionCodes
 def __com_pair_conditional_entropy(cl, clKnown, allNodes): #cl1,cl2, snapshot_communities (set of nodes)
     #H(Xi|Yj ) =H(Xi, Yj ) − H(Yj )
     # h(a,n) + h(b,n) + h(c,n) + h(d,n)
@@ -68,6 +70,7 @@ def __cover_conditional_entropy(cover, coverRef, allNodes, normalized=False): #c
     return to_return
 
 
+################## Main function ##############
 
 
 def onmi(cover,coverRef,allNodes=None,variant="LFK"): #cover and coverRef should be list of set, no community ID
