@@ -86,10 +86,9 @@ def onmi(cover,coverRef,allNodes=None,variant="LFK"): #cover and coverRef should
 
     :param cover: set of set of nodes
     :param coverRef:set of set of nodes
-    :param allNodes:
-    :param variant:
-    :param adjustForChance:
-    :return:
+    :param allNodes: if for some reason you want to take into account the fact that both your cover are partial coverages of a larger graph. Keep default unless you know what you're doing
+    :param variant: one of "LFK", "MGH", "MGH_LFK"
+    :return: an onmi score
 
     :Reference:
 
