@@ -1,4 +1,4 @@
-Overlapping NMI in Python.
+## Overlapping NMI in Python.
 
 This single file library allows you to compute several versions of the NMI.
 
